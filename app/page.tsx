@@ -1,5 +1,5 @@
-import ShopList from "./components/client/ShopList";
+import CompaniesPage from "./components/client/Companies";
 
 export default function Home() {
-  return <ShopList />;
+  return <CompaniesPage />;
 }
