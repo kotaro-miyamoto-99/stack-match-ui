@@ -33,7 +33,7 @@ const CompaniesPage = () => {
     // 仮のデータフェッチ処理
     // 実際にはAPIからデータをフェッチする
     const fetchData = async () => {
-      const response = await fetch(localURL);
+      const response = await fetch(remoteURL);
       const data: Company[] = await response.json();
       setCompanies(data);
     };
